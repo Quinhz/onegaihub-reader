@@ -1,0 +1,146 @@
+body {
+    background-color: #14191b;
+    color: #ffffff;
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header div{
+    /*background-image: url('imgs/Onegaizine.png');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 20px;*/
+    background-color: #0e1212;
+    border-bottom: 2px solid #1f2929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
+header img {
+    width: 25%;
+    height: auto;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #29C1CC;
+}
+
+/* Estrutura da Grade (Grid) para as revistas ficarem lado a lado */
+main {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.grid-revistas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Estilo do Card de cada Revista */
+.card {
+    background-color: #0e1212;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 8px solid #0e1212; /* Reduzido de 15px para 8px para ganhar espaço interno */
+    max-width: 300px;
+    /* max-height: 400px; REMOVIDO para o card crescer e mostrar os botões */
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #83a1a8;
+    background-color: #83a1a8;
+}
+
+.card:hover .card-content h3 {
+    color: #a4fffd;
+}
+
+.card:hover .card-content p {
+    color: #ffffff;
+}
+
+.card img {
+    width: 100%;
+    height: 220px; /* Definir em pixels é mais previsível que em % quando não há altura fixa no pai */
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px; /* Ajustado de 20px para 15px para deixar tudo mais compacto */
+}
+
+.card-content h3 {
+    margin-top: 0;
+    color: #ffffff;
+    transition: color 0.2s ease;
+}
+
+.card-content p {
+    color: #b0b0c0;
+    font-size: 0.85rem;
+    margin-bottom: 15px; /* Reduzido de 20px para dar espaço aos botões */
+    transition: color 0.2s ease;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.ler {
+    background-color: #ff2a5f;
+    color: white;
+}
+
+.soon {
+    background-color: #2a2a32;
+    color: #ffffff;
+}
+
+.baixar {
+    background-color: #2a2a32;
+    color: #ffffff;
+}
+
+footer {
+    border-top: 2px solid #1f2929;
+    background-color: #0e1212;
+    text-align: center;
+    padding: 30px;
+    color: #29C1CC;
+    font-size: 0.85rem;
+}
