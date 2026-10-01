@@ -1,36 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* 2. Regra universal: faz borders e paddings ficarem DENTRO da largura do elemento */
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #14191b;
     color: #ffffff;
-    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
-    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header div{
-    /*background-image: url('imgs/Onegaizine.png');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    padding: 40px 20px;*/
+header {
+    max-width: 100%;
+}
+
+header div {
     background-color: #0e1212;
     border-bottom: 2px solid #1f2929;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 15px;
+    padding: 20px;
 }
 
 header img {
-    width: 25%;
+    width: 80px; /* Tamanho fixo e controlado para o ícone */
     height: auto;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #ffffff;
-    margin-bottom: 5px;
+    margin: 0;
     letter-spacing: 2px;
 }
 
@@ -38,7 +43,7 @@ header p {
     color: #29C1CC;
 }
 
-/* Estrutura da Grade (Grid) para as revistas ficarem lado a lado */
+/* Estrutura da Grade (Grid) */
 main {
     max-width: 1000px;
     margin: 40px auto;
@@ -47,23 +52,25 @@ main {
 
 .grid-revistas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Ajustado para 260px para caber em qualquer celular sem vazar */
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 30px;
 }
 
-/* Estilo do Card de cada Revista */
+/* Estilo do Card */
 .card {
     background-color: #0e1212;
     border-radius: 8px;
     overflow: hidden;
-    border: 8px solid #0e1212; /* Reduzido de 15px para 8px para ganhar espaço interno */
+    border: 8px solid #0e1212;
     max-width: 300px;
-    /* max-height: 400px; REMOVIDO para o card crescer e mostrar os botões */
+    width: 100%;
+    margin: 0 auto; /* Centraliza o card na coluna do grid */
     transition: transform 0.2s ease;
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     border-color: #83a1a8;
     background-color: #83a1a8;
 }
@@ -78,13 +85,13 @@ main {
 
 .card img {
     width: 100%;
-    height: 220px; /* Definir em pixels é mais previsível que em % quando não há altura fixa no pai */
+    height: 220px;
     border-radius: 4px;
     object-fit: cover;
 }
 
 .card-content {
-    padding: 15px; /* Ajustado de 20px para 15px para deixar tudo mais compacto */
+    padding: 15px;
 }
 
 .card-content h3 {
@@ -96,7 +103,7 @@ main {
 .card-content p {
     color: #b0b0c0;
     font-size: 0.85rem;
-    margin-bottom: 15px; /* Reduzido de 20px para dar espaço aos botões */
+    margin-bottom: 15px;
     transition: color 0.2s ease;
 }
 
@@ -126,12 +133,7 @@ main {
     color: white;
 }
 
-.soon {
-    background-color: #2a2a32;
-    color: #ffffff;
-}
-
-.baixar {
+.soon, .baixar {
     background-color: #2a2a32;
     color: #ffffff;
 }
@@ -143,4 +145,24 @@ footer {
     padding: 30px;
     color: #29C1CC;
     font-size: 0.85rem;
+}
+
+/* ==========================================
+   3. REGRAS ESPECÍFICAS PARA CELULAR (MOBILE)
+   ========================================== */
+@media (max-width: 600px) {
+    header div {
+        flex-direction: column; /* Empilha ícone e título na vertical */
+        text-align: center;
+        gap: 10px;
+    }
+
+    header h1 {
+        font-size: 1.6rem; /* Fonte menor para não quebrar linhas no celular */
+    }
+
+    main {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
 }
