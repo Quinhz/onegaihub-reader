@@ -125,11 +125,11 @@ main {
 }
 
 .btn:hover {
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .ler {
-    background-color: #ff2a5f;
+    background-color: #018db4;
     color: white;
 }
 
