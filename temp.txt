@@ -1,0 +1,133 @@
+ <!-- Edição 02 (É só copiar e colar este bloco 'card' para adicionar mais) -->
+            <div class="card">
+                <img src="imgs/OnegaiZineSpecialzSEL.jpg" alt="placeholder">
+                <div class="card-content">
+                    <h3>Specialz: Serial Experiments Lain (English)</h3>
+                    <p>The year was 1945, the Second World War was almost at its end. And the world saw, for the first time, the most powerful weapon of mankind—a weapon so destructive that it could erase a city in a matter of seconds. Families, animals, histories, all that was once full of life were wiped out by the power of technology.</p>
+                    <div class="botoes">
+                        <a href="zines/OnegaiZineSpecialzSEL.pdf" target="_blank" class="btn ler">Ler Online</a>
+                        <a href="zines/OnegaiZineSpecialzSEL.pdf" download class="btn baixar">Baixar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/Site-OnegaiZineExpressKCO.jpg" alt="placeholder">
+                <div class="card-content">
+                    <h3>Kokoro Connect</h3>
+                    <p>By Magal.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZineExpressKNY.jpg" alt="placeholder">
+                <div class="card-content">
+                    <h3>Kimetsu no Yaiba</h3>
+                    <p>Por Melo.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/Site-OnegaiZineExpressASOA.jpg" alt="placeholder">
+                <div class="card-content">
+                    <h3>A Sign of Affection</h3>
+                    <p>O anime Yubisaki to Renren (A Sign of Affection em inglês) retrata a vida de Yuki, uma estudante universitária surda, que durante um imprevisto acaba conhecendo o veterano de sua faculdade, Itsuomi, naquele momento se iniciou uma trama que supera qualquer dificuldade.</p>
+                    <div class="botoes">
+                        <a href="zines/Site-OnegaiZineExpressASOA.pdf" target="_blank" class="btn ler">Ler Online</a>
+                        <a href="zines/Site-OnegaiZineExpressASOA.pdf" download class="btn baixar">Baixar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZineExpressVS.jpg" alt="placeholder">
+                <div class="card-content">
+                    <h3>Vinland Saga</h3>
+                    <p>Por Sukku.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZineSpecialzFB.jpg" alt="placeholder">
+                <div class="card-content">
+                    <h3>Fruits Basket</h3>
+                    <p>O que será dito sobre o anime Fruits Basket não é nada menos que um tipo de ensaio, como forma de, não entender, mas questionar conceitos já existentes e desabar as paredes da ignorância. </p>
+                    <div class="botoes">
+                        <a href="zines/OnegaiZineSpecialzFB.pdf" target="_blank" class="btn ler">Ler Online</a>
+                        <a href="zines/OnegaiZineSpecialzFB.pdf" download class="btn baixar">Baixar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZineSpecialzDB.jpg" alt="placeholder">
+                <div class="card-content">
+                    <h3>Dragon Ball Z</h3>
+                    <p>Por Sena.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/Onegaizine-KOK.jpg" alt="Kaii to Otome to Kamikakushi">
+                <div class="card-content">
+                    <h3>Kaii to Otome to Kamikakushi</h3>
+                    <p>Por Sukku.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZineSpecialzYN.jpg" alt="Your Name">
+                <div class="card-content">
+                    <h3>Your Name</h3>
+                    <p>Por Féliz.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZineSpecialzKDP.jpg" alt="Kpop Demon Hunters">
+                <div class="card-content">
+                    <h3>Kpop Demon Hunters</h3>
+                    <p>Por Magal.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZineSpecialzJJK.jpg" alt="Jujutsu Kaisen">
+                <div class="card-content">
+                    <h3>Jujutsu Kaisen</h3>
+                    <p>Por Sena.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img src="imgs/OnegaiZine-MFG.jpg" alt="MF Ghost">
+                <div class="card-content">
+                    <h3>MF Ghost</h3>
+                    <p>Por Féliz.</p>
+                    <div class="botoes">
+                        <a target="_blank" class="btn soon">Em Breve</a>
+                        
+                    </div>
+                </div>
+            </div>
